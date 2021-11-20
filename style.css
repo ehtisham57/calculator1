@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background-color: rgb(38, 107, 134);
+    color: white;
+    font-size: 30px;
+    margin: 20px 50px;
+}
+
+#clear {
+    width: 270px;
+    border: 3px solid rgb(41, 33, 33);
+    border-radius: 3px;
+    padding: 30px;
+    background-color: rgb(27, 7, 7);
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.formstyle {
+    width: 500px;
+    /* min-width: 250px; */
+    text-align: center;
+    min-height: 530px;
+    margin: auto;
+    border: 10px solid rgb(97, 92, 92);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .5), 0 30px 30px 30px rgba(0, 0, 0, .6);
+}
+
+input {
+    width: 10px;
+    background-color: rgb(225, 225, 226);
+    color: rgb(153, 14, 14);
+    border: 5px solid rgb(138, 137, 137);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    margin: 6px;
+    font-size: 15px;
+    transition: .4s;
+    box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .5);
+    border-radius: 50px;
+}
+
+input:hover {
+    color: rgb(87, 23, 23);
+    background: rgba(88, 88, 88, 0.6);
+    font-size: 25px;
+    width: 20px;
+}
+
+#calc {
+    width: 250px;
+    border: 5px solid rgb(59, 59, 59);
+    border-radius: 3px;
+    padding: 20px;
+    margin: auto;
+    border-radius: 50px;
+}
+
+@media screen and (max-width:700px) {
+    h1 {
+        font-size: 12px;
+        margin: 25px 0;
+        color: aqua;
+    }
+    #clear {
+        width: 200px;
+        margin-top: 20px;
+    }
+    #calc {
+        width: 150px;
+        padding: 10px;
+        margin: 0;
+        border-radius: 50px;
+    }
+    .formstyle {
+        width: 250px;
+        padding: 10px;
+    }
+    input {
+        width: 5px;
+        padding: 15px;
+        margin: 2px;
+        font-size: 12px;
+        transition: .4s;
+        box-shadow: 0 20px 20px 0 rgba(0, 0, 0, .5);
+        border-radius: 50px;
+    }
+}
